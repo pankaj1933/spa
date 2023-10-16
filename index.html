@@ -1,0 +1,652 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <!-- Add Slick Slider CSS and JavaScript files -->
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- BOOTSTRAP LINK  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- AOS LINK  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- css link  -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="overflow-hidden">
+    <!-- preloader and top t bottom  -->
+    <button onclick="topFunction()"  id="scrollBtn" title="Go to top"><img
+        src="./assets/image/svg/toparrow.svg" alt=""></button>
+        <div id="box" class="overflow-hidden">
+            <div class="preloader-box z_99">
+                <img class="mx-auto" src="./assets/image/svg/navlogo.svg"
+                    alt="logo-image" />
+            </div>
+        </div>
+    <!-- NAVBAR STARTS HERE  -->
+    <section class="bg_primary overflow-x-hidden">
+        <div class="container_css">
+            <nav class="py-3 d-flex justify-content-between align-items-center">
+                <img src="./assets/image/svg/navlogo.svg" alt="">
+                <ul class="mb-0 ps-0 d-md-flex align-items-center gap-4 text-white d-none d-md-block">
+                    <li class="nav_li"><a class="text-white ff-poppins fs_md few-normal " href="">
+                            Services
+                        </a></li>
+                    <li class="nav_li"><a class="text-white ff-poppins fs_md few-normal " href="">Benefits</a></li>
+                    <li class="nav_li"><a class="text-white ff-poppins fs_md few-normal " href="">Why Choose US</a></li>
+                    <li class="nav_li">
+                        <a class=" ff-poppins fs_md fw-normal text-white " href="">FAQs</a>
+                    </li>
+
+                </ul>
+                <button class="primmary_btn fs_md fw-medium ff-poppins d-lg-block d-none ">Contact us</button>
+                <button id="openNav" onclick="openNav()" class="menu d-md-none" type="button">&#9776</button>
+                <div id="Menu" class="d-md-none navbar1 d-flex justify-content-center align-items-center">
+                    <button class="menu position-absolute closbtn" onclick="closeNav()" type="button">&times;</button>
+                    <ul class="mb-0 ps-0 d-flex flex-column gap-4 text-white">
+                        <li><a class="text-white ff-poppins fs_md few-normal " href="">
+                                Services
+                            </a></li>
+                        <li><a class="text-white ff-poppins fs_md few-normal " href="">Benefits</a></li>
+                        <li><a class="text-white ff-poppins fs_md few-normal " href="">Why Choose US</a></li>
+                        <li>
+                            <a class=" ff-poppins fs_md fw-normal text-white" href="">FAQs</a>
+                        </li>
+
+                    </ul>
+                    <button class="primmary_btn fs_md fw-medium ff-poppins mt-3 me-5 ">Contact us</button>
+                </div>
+            </nav>
+        </div>
+    </section>
+    <!-- NAVBAR ENDS HERE  -->
+    <!-- HEROSECTION STARTS HERE  -->
+    <header class="bg_semicircle overflow-x-hidden">
+        <div class="container_css">
+            <div class="content">
+                <img class="bg_lv" src="./assets/image/svg/bg_lv.svg" alt="">
+                <img class="bg_lv2" src="./assets/image/svg/bg_lv1.svg" alt="">
+
+                <h1 class="ff-poppins fw-semibold fs_xxl z-3 fc_white max_w_728 text-center mx-auto pb-3">Simplifying
+                    <span class="fst-italic fw-normal">Laptop Refresh</span> Deployments for Organizations
+                </h1>
+                <p class="ff-poppins fs_lg fw-normal fc_white opacity-75 d-flex justify-content-center mb-0">
+                    Revolutionizing
+                    the Way You Manage Laptop Refresh Projects</p>
+            </div>
+        </div>
+    </header>
+    <!-- HERO SECTION ENDS HERE  -->
+    <!-- FEATURE SECTION STARTS HERE  -->
+    <section>
+            <div class="d-flex justify-content-center mb-5">
+                <img class="dellhero"  data-aos="zoom-in-down" data-aos-duration="2000" data-aos-delay="1000" src="./assets/image/webp/dellhero.png" alt="">
+            </div>
+        <div class="container_css">
+            <h2 class="fc_black ff-poppins fw-semibold d-flex justify-content-center my-5 fs_xxl">Features & <span
+                    class="fw-normal fst-italic">Benefits</span></h2>
+            <div class="d-lg-block d-none">
+                <div class="row pb-5 position-relative  mb-lg-5">
+                    <img class="bg_lv3 w-25 d-xl-block d-none" src="./assets/image/svg/bg_lv2.svg" alt="">
+                    <div class="col-lg-4 mb-lg-5 pb-5" data-aos="flip-left" data-aos-duration="2000">
+                        <div class="feature_box">
+                            <h3
+                                class="benefit_heading d-flex justify-content-center fs_md ff-poppins fw-semibold fc_white">
+                                Employee Portal</h3>
+                            <ul class="custom_disc position-relative">
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-4 mb-1">User-Friendly Signup:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Employees easily indicate
+                                        their
+                                        preference for a new laptop.</p>
+                                </li>
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Seamless Communication:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Automated notifications keep
+                                        employees
+                                        informed from request to exchange.</p>
+                                </li>
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Flexible Scheduling:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Convenient appointment
+                                        scheduling
+                                        and
+                                        rescheduling rightfrom the portal.</p>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-lg-5 pb-5" data-aos="flip-left" data-aos-duration="2000">
+                        <div class="feature_box">
+                            <h3
+                                class="benefit_heading d-flex justify-content-center fs_md ff-poppins whitespace_nowrap fw-semibold fc_white">
+                                Engineer Dashboard</h3>
+                            <ul class="custom_disc position-relative">
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-4 mb-1">Daily Handover Insights:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">View all laptop handover
+                                        appointments
+                                        for the day at a glance.</p>
+                                </li>
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Efficient Management:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Update laptop serial numbers
+                                        manually,
+                                        label exchanges, and track noshows.</p>
+                                </li>
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Full Office Visibility:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Monitor all appointments for
+                                        the
+                                        office, regardless of the date.</p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 mb-lg-5 pb-5"  data-aos="flip-left" data-aos-duration="2000">
+                        <div class="feature_box">
+                            <h3
+                                class="benefit_heading d-flex justify-content-center whitespace_nowrap fs_md ff-poppins fw-semibold fc_white">
+                                Stakeholder Dashboard</h3>
+                            <ul class="custom_disc position-relative">
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-4 mb-1">Deployment Overview:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Stay updated with holistic and
+                                        individual office performance metrics.</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Employee Tracking:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Identify completed exchanges
+                                        and no-shows, making escalations swift and easy</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Deployment Calendar:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Get a clear picture of current
+                                        and
+                                        upcoming deployments by office.</p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="d-lg-none py-5 d-block  ">
+                <div class="slick-slider pb-5">
+                    <div>
+                        <div class="feature_box mx-auto">
+                            <h3
+                                class="benefit_heading d-flex justify-content-center whitespace_nowrap fs_md ff-poppins fw-semibold fc_white">
+                                Stakeholder Dashboard</h3>
+                            <ul class="custom_disc position-relative">
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-4 mb-1">Deployment Overview:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Stay updated with holistic and
+                                        individual office performance metrics.</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Employee Tracking:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Identify completed exchanges
+                                        and no-shows, making escalations swift and easy</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Deployment Calendar:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Get a clear picture of current
+                                        and
+                                        upcoming deployments by office.</p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="feature_box mx-auto">
+                            <h3
+                                class="benefit_heading d-flex justify-content-center whitespace_nowrap fs_md ff-poppins fw-semibold fc_white">
+                                Stakeholder Dashboard</h3>
+                            <ul class="custom_disc position-relative">
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-4 mb-1">Deployment Overview:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Stay updated with holistic and
+                                        individual office performance metrics.</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Employee Tracking:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Identify completed exchanges
+                                        and no-shows, making escalations swift and easy</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Deployment Calendar:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Get a clear picture of current
+                                        and
+                                        upcoming deployments by office.</p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="feature_box mx-auto">
+                            <h3
+                                class="benefit_heading d-flex justify-content-center whitespace_nowrap fs_md ff-poppins fw-semibold fc_white">
+                                Stakeholder Dashboard</h3>
+                            <ul class="custom_disc position-relative">
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-4 mb-1">Deployment Overview:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Stay updated with holistic and
+                                        individual office performance metrics.</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Employee Tracking:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Identify completed exchanges
+                                        and no-shows, making escalations swift and easy</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Deployment Calendar:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Get a clear picture of current
+                                        and
+                                        upcoming deployments by office.</p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="feature_box mx-auto">
+                            <h3
+                                class="benefit_heading d-flex justify-content-center whitespace_nowrap fs_md ff-poppins fw-semibold fc_white">
+                                Stakeholder Dashboard</h3>
+                            <ul class="custom_disc position-relative">
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-4 mb-1">Deployment Overview:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Stay updated with holistic and
+                                        individual office performance metrics.</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Employee Tracking:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Identify completed exchanges
+                                        and no-shows, making escalations swift and easy</p>
+                                </li>
+
+                                <li>
+                                    <h3 class="ff-poppins fs_sm fw-medium pt-3 mb-1">Deployment Calendar:</h3>
+                                    <p class="ff-poppins fs_sm fw-normal opacity-75 mb-0">Get a clear picture of current
+                                        and
+                                        upcoming deployments by office.</p>
+                                </li>
+
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- FEATURE SECTION ENDS HERE  -->
+
+    <!-- 3rd section  -->
+    <section class="bg_third py-5 overflow-x-hidden">
+        <div class="container_css py-lg-5">
+            <div class="row align-items-center py-5">
+                <div class="col-lg-6 col-11 py-4" data-aos="fade-right" data-aos-duration="2000">
+                    <h3 class="ff-poppins fs_xxl  fw-normal fc_black"><span class="fw-semibold">About</span> SPA</h3>
+                    <p class="ff-poppins fs_sm fw-normal fc_black opacity-75 mb-0 pb-3">Dui nulla duis tristique eu sed
+                        sit in ut. Dictum felis commodo eu nulla. Adipiscing sed eu nisi
+                        justo id pharetra rutrum. Morbi nisi facilisi senectus pulvinar in enim feugiat eros tortor.
+                        Eget senectus tellus nunc vulputate volutpat.</p>
+                    <p class="ff-poppins fs_sm fw-normal fc_black opacity-75 mb-0 pb-4">Laoreet pellentesque augue ipsum
+                        urna potenti elementum. Tincidunt ipsum at suspendisse posuere
+                        scelerisque sit elit. Cras tellus id odio amet pellentesque arcu.</p>
+                    <button class="primmary_btn bg_btn fw-medium fs_md ff-poppins">Learn More</button>
+                </div>
+                <div class="col-lg-6 py-4"  data-aos="fade-left" data-aos-duration="2000">
+                    <div class=" position-relative">
+                        <div class="third1 third_abs1 position-absolute"></div>
+                        <img id="laptop" class="w-75" src="./assets/image/webp/New_Macbook.png" alt="">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- 3rd section ends here   -->
+    <!-- WHY CHOOSE SPA  -->
+    <section class="pt-5 mt-5 overflow-x-hidden">
+        <div class="container_css pt-4">
+            <h4 class="fw-semibold fs_xxl ff-poppins d-flex justify-content-center pb-5 mb-4">Why Choose <span
+                    class="fw-normal fst-italic">SPA?</span></h4>
+            <div class="d-lg-block d-none">
+                <div class="row justify-content-between">
+                    <!-- lg screen  -->
+                    <div class="col-lg-3"  data-aos="fade-right" data-aos-duration="2000">
+                        <h4
+                            class="d-flex justify-content-end text-end whitespace_nowrap ff-poppins fs_sm fw-medium chooseicon1  fc_black">
+                            Comprehensive Solution</h4>
+                        <p class="d-flex justify-content-end text-end ff-poppins fs_sm fw-normal opacity-75">SPA handles
+                            every aspect of your laptop refresh project, eliminating the need for multiple tools
+                            and manual interventions.</p>
+                        <h4
+                            class="d-flex justify-content-end text-end whitespace_nowrap ff-poppins fs_sm fw-medium chooseicon2 fc_black mt-5">
+                            Improved Accountability:</h4>
+                        <p class="d-flex justify-content-end text-end ff-poppins fs_sm fw-normal opacity-75">With SPA,
+                            stakeholders and office managers have access to real-time data, ensuring that every
+                            employee exchange is accounted for.</p>
+                    </div>
+                    <div class="col-lg-3" data-aos="zoom-out-up" data-aos-duration="2000">
+
+                        <div class="d-flex justify-content-center mt-5 align-items-center position-relative">
+                            <img class="arrowline" src="./assets/image/svg/arrowline.svg" alt="">
+                            <img class="rotate_img" src="./assets/image/svg/roundcircle.svg" alt="">
+                            <img src="./assets/image/svg/arrowliner.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-3"  data-aos="fade-left" data-aos-duration="2000">
+                        <h4 class=" whitespace_nowrap chooseicon3 ff-poppins fs_sm fw-medium fc_black">
+                            Time & Cost Efficiency</h4>
+                        <p class=" ff-poppins fs_sm fw-normal opacity-75">Automated
+                            processes mean less manual work, leading to faster deployments and cost savings..</p>
+                        <h4 class=" whitespace_nowrap chooseicon4 pt-3 ff-poppins fs_sm fw-medium fc_black">
+                            Enhanced Communication</h4>
+                        <p class=" ff-poppins fs_sm fw-normal opacity-75">Whether
+                            it's rescheduling, reminders, or updates, SPA ensures everyone is on the same page.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- small screen  -->
+            <div class="d-lg-none d-block">
+                <div class="col-12">
+                    <div class="d-flex gap-3">
+                        <img src="./assets/image/svg/choose1.svg" alt="">
+                        <div class="">
+                            <h4 class=" whitespace_nowrap ff-poppins fs_sm fw-medium fc_black">
+                                Comprehensive Solution</h4>
+                            <p class=" ff-poppins fs_sm fw-normal opacity-75">SPA handles
+                                every aspect of your laptop refresh project, eliminating the need for multiple tools
+                                and manual interventions.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <img src="./assets/image/svg/choose2.svg" alt="">
+                        <div class="">
+                            <h4 class="  whitespace_nowrap ff-poppins fs_sm fw-medium  fc_black">
+                                Improved Accountability:</h4>
+                            <p class="  ff-poppins fs_sm fw-normal opacity-75">With SPA,
+                                stakeholders and office managers have access to real-time data, ensuring that every
+                                employee exchange is accounted for.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <img src="./assets/image/svg/choose3.svg" alt="">
+                        <div class="">
+                            <h4
+                                class="d-flex justify-content-start text-start whitespace_nowrap  ff-poppins fs_sm fw-medium fc_black">
+                                Time & Cost Efficiency</h4>
+                            <p class="d-flex justify-content-start text-start ff-poppins fs_sm fw-normal opacity-75">
+                                Automated
+                                processes mean less manual work, leading to faster deployments and cost savings..
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex gap-3">
+                        <img src="./assets/image/svg/choose4.svg" alt="">
+                        <div class="">
+                            <h4 class=" whitespace_nowrap  pt-3 ff-poppins fs_sm fw-medium fc_black mt-5">
+                                Enhanced Communication</h4>
+                            <p class=" ff-poppins fs_sm fw-normal opacity-75">Whether
+                                it's rescheduling, reminders, or updates, SPA ensures everyone is on the same page.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- modal section starts here  -->
+    <section class="py-5 position-relative overflow-x-hidden">
+        <div class="third2 third3_abs"></div>
+        <div class="container_css py-5">
+            <h4 class="ff-poppins fs_xxl fw-semibold d-flex py-5 justify-content-center ">Watch Promo <span
+                    class="fw-normal fst-italic">Video</span></h4>
+            <div class="justify-content-center d-flex"  data-aos="zoom-out-up" data-aos-duration="2000">
+                <div class="hover_images my-5 mx-auto">
+                    <img class="wh_modal" src="./assets/image/webp/modal.png" alt="">
+                    <div class="overlay1">
+                        <img class="" data-toggle="modal" data-target="#youtubeModal" src="./assets/image/svg/modal.svg"
+                            alt="">
+                    </div>
+                    <!-- The Modal -->
+                    <div class="modal fade" id="youtubeModal" tabindex="-1" role="dialog"
+                        aria-labelledby="youtubeModalLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg" role="document">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="youtubeModalLabel">YouTube Video</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <!-- Embed YouTube video using an iframe -->
+                                    <div class="embed-responsive embed-responsive-16by9">
+                                        <iframe src="https://www.youtube.com/embed/vy4C93X9DQk?si=l_tb_FXdxrljI_HG"
+                                            title="YouTube video player" frameborder="0"
+                                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                            allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- LAPTOP COL SECTION STARTS HERE  -->
+    <section class="bg_third py-5 overflow-x-hidden">
+        <div class="container_css py-5">
+            <div class="row align-items-center py-5">
+
+                <div class="col-lg-6 mx-auto"  data-aos="fade-right" data-aos-duration="2000">
+                    <div class=" position-relative">
+                        <div class="third1 third_abs position-absolute"></div>
+                        <img class="w-75 " src="./assets/image/webp/New_Macbook1.png" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 pt-5 pt-lg-0 mt-5"  data-aos="fade-left" data-aos-duration="2000">
+                    <h3 class="ff-poppins fs_xxl fw-semibold mb-3">Your Partner in Streamlined Laptop <span
+                            class="fw-normal fst-italic">Refresh Deployments</span></h3>
+                    <p class="ff-poppins fw-normal fs_sm opacity-75">Equip your organization with the best. Experience
+                        hassle-free management and stakeholder
+                        satisfaction with SPA.</p>
+
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- FOOTER STARTS HERE  -->
+    <footer class="pt-5 position-relative overflow-x-hidden">
+        <img class="bg_lv4" src="./assets/image/svg/bg_lv3.svg" alt="">
+        <img class="bg_lv5"  src="./assets/image/svg/bg_lv4.svg" alt="">
+        <div class="container_css pt-5">
+            <div class="row pt-lg-5 pb-5 mb-4">
+                <div class="col-lg-4 col-11  order-1"  data-aos="fade-right" data-aos-duration="2000">
+                    <img class="d-flex justify-content-center" src="./assets/image/svg/footerlogo.svg" alt="">
+                    <p class="ff-poppins pt-3 fs_sm fw-normal opacity-75">Equip your organization with the best.
+                        Experience
+                        hassle-free management and stakeholder satisfaction with SPA.</p>
+                </div>
+                <div class="col-lg-5 order-3 order-sm-2" data-aos="zoom-out-up" data-aos-duration="2000">
+                    <div class="input_box">
+                        <div class="d-flex gap-2">
+                            <div class="pt-1">
+                                <p class="mb-1 ff-poppins fs_sm fw-normal fc_white">First Name</p>
+                                <input type="text">
+
+                            </div>
+                            <div class="pt-1">
+                                <p class="mb-1 ff-poppins fs_sm fw-normal fc_white">Last Name</p>
+                                <input type="text">
+
+                            </div>
+                        </div>
+                        <p class="mt-3 mb-1 ff-poppins fs_sm fw-normal fc_white">Email</p>
+                        <input class="mb-3" type="email">
+                        <button class="input_btn ff-poppins fw-medium fs_xs fc_white ">Submit</button>
+                    </div>
+                </div>
+                <div class="col-lg-3 order-2 order-lg-3"  data-aos="fade-right" data-aos-duration="2000">
+                    <div class="d-flex">
+
+                        <ul class="p-0">
+                            <li class="fs_md ff-poppins fw-semibold pb-2">Links</li>
+                            <li class="fs_sm footer_li fw-normal ff-poppins text-black-50">Assignment</li>
+                            <li class="fs_sm footer_li fw-normal ff-poppins text-black-50 whitespace_nowrap">Product
+                                Package</li>
+                            <li class="fs_sm footer_li fw-normal ff-poppins text-black-50">Journey</li>
+                            <li class="fs_sm footer_li fw-normal ff-poppins text-black-50">Contact Us</li>
+                            <li class="fs_sm footer_li fw-normal ff-poppins text-black-50">Programs</li>
+                            <li class="fs_sm footer_li fw-normal ff-poppins text-black-50 whitespace_nowrap">Terms of
+                                Service</li>
+                        </ul>
+
+
+                        <ul>
+                            <li class="fs_md ff-poppins fw-semibold pb-2">Other Links</li>
+                            <li class="fs_sm footer_li fw-normal ff-poppins text-black-50">Privacy Policy</li>
+                            <li class="fs_sm footer_li whitespace_nowrap  fw-normal ff-poppins text-black-50">Terms of
+                                Service</li>
+                        </ul>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer_upperline">
+            <p class="ff-poppins fs_sm fw-normal fc_black justify-content-center d-flex opacity-75">© 2023 SPA All
+                rights reserved</p>
+        </div>
+    </footer>
+    <!-- bootstrap links  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <!-- Add jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <!-- aos link  -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- laptop animation gsap  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script>
+        AOS.init({
+            once: true,
+        });
+
+    </script>
+    <script>
+        function openNav() {
+            document.getElementById("Menu").style.left = "0%";
+            document.getElementsByTagName("body")[0].style.overflow = "hidden";
+
+        }
+        function closeNav() {
+            document.getElementById("Menu").style.left = "-100%";
+            document.getElementsByTagName("body")[0].style.overflow = "scroll";
+        }
+    </script>
+    <script>
+        $(document).ready(function () {
+            $('.slick-slider').slick({
+                slidesToShow: 2,
+                arrows:true,
+                centermode: true,
+                dots: false,
+                responsive: [
+                    {
+                        breakpoint: 814,
+                        settings: {
+                            slidesToShow: 1
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            dots:true
+                        }
+                    }
+                ]
+            });
+        });
+    </script>
+    <!-- PRELOADER JS  -->
+ 
+ <script>
+    setTimeout(() => {
+      const box = document.getElementById("box");
+    
+      box.style.display = "none";
+    
+      document.body.classList.remove("overflow-hidden");
+    }, 1500);
+   </script>
+    <!-- SCROLL BUTTON  -->
+    <script>
+
+        let mybutton = document.getElementById("scrollBtn");
+
+
+        window.onscroll = function () { scrollFunction() };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
+    <!-- SLICK JS  -->
+
+</body>
+
+</html>
